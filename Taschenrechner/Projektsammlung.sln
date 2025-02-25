@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner", "Taschenrechner\Taschenrechner.csproj", "{A8A84AF3-DD48-416E-A28F-4DE23C1CE29A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dateizugriff", "Dateizugriff\Dateizugriff.csproj", "{53271A86-598C-496C-AEE4-93BB21E31E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8A84AF3-DD48-416E-A28F-4DE23C1CE29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A84AF3-DD48-416E-A28F-4DE23C1CE29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A84AF3-DD48-416E-A28F-4DE23C1CE29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A84AF3-DD48-416E-A28F-4DE23C1CE29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53271A86-598C-496C-AEE4-93BB21E31E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53271A86-598C-496C-AEE4-93BB21E31E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53271A86-598C-496C-AEE4-93BB21E31E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53271A86-598C-496C-AEE4-93BB21E31E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E1BE9BC-56DD-431B-B9ED-E3893508DDC4}
+	EndGlobalSection
+EndGlobal
