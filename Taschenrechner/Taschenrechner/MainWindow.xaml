@@ -8,18 +8,31 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid>
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="250"></ColumnDefinition>
+                <ColumnDefinition Width="400"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="80"></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <Button Grid.Row="0" Click="Button_Click">Btn1</Button>
-            <TextBox Grid.Row="1"></TextBox>
-            <TextBox Grid.Row="2"></TextBox>
+            <Button Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="630,0,-500,0">Rechne =</Button>
+            <Button Grid.Row="4" Click="Button_Click" Grid.Column="0" Margin="630,0,-500,0" RenderTransformOrigin="0.576,-1.057">Plus +</Button>
+            <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="630,0,-500,0">Minus -</Button>
+            <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="630,0,-500,0">Addition *</Button>
+            <Button Grid.Row="1" Click="Button_Click" Grid.Column="0" Margin="630,0,-500,0">Division</Button>
+            <TextBlock Grid.Row="1" Margin="190,0,60,0" Grid.ColumnSpan="2"/>
+
 
 
 
         </Grid>
     </Grid>
-    
+
 </Window>
