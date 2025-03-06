@@ -7,39 +7,57 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Border CornerRadius="25" BorderBrush="GhostWhite" BorderThickness="2" Padding="6" Background="Black">
-    <Grid>
         <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="600"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="50"></RowDefinition>
-            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="600"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
-            <Button Grid.Row="6" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange" >Rechne =</Button>
-            <Button Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Plus +</Button>
-            <Button Grid.Row="4" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Minus -</Button>
-            <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Addition *</Button>
-            <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Division</Button>
-            
-            
-            <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="200,5,300,0" Background="Orange">Clear</Button>
-            <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="350,5,150,0" Background="Orange">+/-</Button>
-            <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="500,5,0,0" Background="Orange">Prozent %</Button>
-            
-            <TextBlock Grid.Row="1" Margin="180,0,-30,0" TextAlignment="Center" Background="GhostWhite"/>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
 
 
+                <Button FontFamily="Baskerville Old Face" Grid.Row="6" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="#000080" >Rechne =</Button>
+                <Button FontFamily="Baskerville Old Face" Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Plus +</Button>
+                <Button Grid.Row="4" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Minus -</Button>
+                <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Addition *</Button>
+                <Button Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="630,5,-150,0" Background="Orange">Division</Button>
+
+                <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="500,2,0,2" Background="Gray">9</Button>
+                <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="350,2,150,2" Background="Gray">8</Button>
+                <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="200,2,300,2" Background="Gray">7</Button>
+
+                <Button Grid.Row="3" Click="Button_Click" Grid.Column="0" Margin="350,48,150,2" Background="Gray" Grid.RowSpan="2">5</Button>
+                <Button Grid.Row="4" Click="Button_Click" Grid.Column="0" Margin="200,0,300,0" Background="Gray">6</Button>
+                <Button Grid.Row="4" Click="Button_Click" Grid.Column="0" Margin="500,0,0,0" Background="Gray">4</Button>
+
+                <Button Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="350,0,150,0" Background="Gray">2</Button>
+                <Button Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="500,0,0,0" Background="Gray">1</Button>
+                <Button Grid.Row="5" Click="Button_Click" Grid.Column="0" Margin="200,2,300,48" Background="Gray" Grid.RowSpan="2">3</Button>
+
+                <Button Grid.Row="6" Click="Button_Click" Grid.Column="0" Margin="350,2,150,-2" Background="Gray">0</Button>
+                <Button Grid.Row="6" Click="Button_Click" Grid.Column="0" Margin="500,2,0,-2" Background="Gray">Komma ,</Button>
 
 
+
+
+                <Button FontFamily="Baskerville Old Face" Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="200,5,300,0" Background="#ffa500">Clear</Button>
+                <Button FontFamily="Baskerville Old Face" Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="350,5,150,0" Background="#ffa500">+/-</Button>
+                <Button FontFamily="Baskerville Old Face" Grid.Row="2" Click="Button_Click" Grid.Column="0" Margin="500,5,0,0" Background="#ffa500">Prozent %</Button>
+
+                <TextBlock Grid.Row="1" Margin="180,0,-30,0" TextAlignment="Center" Background="GhostWhite"/>
+
+
+
+
+            </Grid>
         </Grid>
-    </Grid>
     </Border>
 </Window>
