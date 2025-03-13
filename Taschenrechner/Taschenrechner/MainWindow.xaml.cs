@@ -23,12 +23,14 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
+
     private void Button_Click(object sender, RoutedEventArgs e)
     {
-        if()
-        int ergebnis = 2;
- 
-        txtDisplay = ergebnis.ToString();
+       
 
     }
 
