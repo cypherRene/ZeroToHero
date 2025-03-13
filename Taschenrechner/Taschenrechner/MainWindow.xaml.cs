@@ -16,6 +16,8 @@ namespace Taschenrechner;
 /// </summary>
 public partial class MainWindow : Window
 {
+   
+
     public MainWindow()
     {
         InitializeComponent();
@@ -23,10 +25,10 @@ public partial class MainWindow : Window
 
     private void Button_Click(object sender, RoutedEventArgs e)
     {
-        Prozessor prozessor = new Prozessor();
-        int ergebnis = prozessor.add(2, 5);
-        remove();
-        MessageBox.Show(ergebnis.ToString());
+        if()
+        int ergebnis = 2;
+ 
+        txtDisplay = ergebnis.ToString();
 
     }
 
@@ -34,4 +36,9 @@ public partial class MainWindow : Window
     {
         return 0;
     }
+
+   
+
+
+    
 }
